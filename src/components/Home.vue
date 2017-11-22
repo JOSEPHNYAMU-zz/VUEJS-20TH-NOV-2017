@@ -1,7 +1,7 @@
 <template>
     <div class="hello home">
         <router-link style="background-color: #cccccc;" id="lin" to="/">Home</router-link>
-        <router-link id="lin" to="/Profile">Profile</router-link>
+        <router-link id="lin" to="/Blog">Blog</router-link>
         <br/><br/>
         <fieldset class="fie">
             <legend><h2>TO DO LIST</h2></legend>

@@ -1,7 +1,7 @@
 <template>
     <div class="hello home">
         <router-link id="lin" to="/">Home</router-link>
-        <router-link style="background-color: #cccccc;" id="lin" to="/Profile">Profile</router-link>
+        <router-link style="background-color: #cccccc;" id="lin" to="/Blog">Blog</router-link>
         <br/><br/>
         <fieldset class="fie">
             <legend><h2>LATEST NEWS</h2></legend>
@@ -25,7 +25,7 @@
 <script>
   import axios from 'axios'
   export default {
-    name: 'Profile',
+    name: 'Blog',
     data () {
       return {
         posts: []
