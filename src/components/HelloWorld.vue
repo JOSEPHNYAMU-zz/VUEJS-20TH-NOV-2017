@@ -32,8 +32,6 @@
 
             </div>
         </fieldset>
-
-
     </div>
 </template>
 
@@ -47,7 +45,6 @@
         }]
       }
     },
-
     methods: {
       addTodo () {
         this.todos.push({
